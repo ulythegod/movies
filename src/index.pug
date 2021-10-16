@@ -10,17 +10,145 @@ html(lang="en")
   body
     include modules/header
     
-    section
+    section.section-banner
+        img(src="images/main-banner.png", alt="banner").section-banner__image
         .container
             .banner 
-                h1.banner__title Shake It Up
+                h1.banner__title Dune
                 .banner-info 
                     span.banner-info__year 2021
-                    span.banner-info__age 18+
-                    span.banner-info__time 4h 2min
-                    span.banner-info__raiting 8.8
-                p.banner__text Determined to ensure Supermans ultimate sacrifice was not in vain, 
-                Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans 
-                to protect the world from an approaching threat of catastrophic proportions.
-
+                    span.banner-info__age 12+
+                    span.banner-info__time 2h 35min
+                    span.banner-info__raiting 7.9
+                p.banner__text "A mythic and emotionally charged hero's journey, Dune tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
+                .banner-control
+                  button.banner-control__btn.banner-control__btn-main Watch
+                  button.banner-control__btn.banner-control__btn-more More Information
+    section.section
+        .container
+            h2.section__h2
+                a(href="#").section__h2-link Trending TV Shows
+            .movies
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv01.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv02.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv03.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv04.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv05.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/tv06.png", alt="").movies__img
+    section.section
+        .container
+            h2.section__h2
+                a(href="#").section__h2-link Trending Movies
+            .movies
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster01.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster02.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster03.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster04.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster05.png", alt="").movies__img
+                .movies-item
+                    a(href="").movies__link
+                        img(src="images/posters/poster06.png", alt="").movies__img         
+            button.section__btn See More
+    section.section
+        .container
+            h2.section__h2
+                a(href="#").section__h2-link Popular Genres
+            .genres 
+                .genres-item.genres-item_romance 
+                    .genres-icon
+                        img(src="images/genres/romance.svg", alt="Romance").genres__image
+                    h3.genres__title Romance
+                .genres-item.genres-item_drama 
+                    .genres-icon
+                        img(src="images/genres/drama.svg", alt="Drama").genres__image
+                    h3.genres__title Drama
+                .genres-item.genres-item_historical 
+                    .genres-icon
+                        img(src="images/genres/historical.svg", alt="Historical").genres__image
+                    h3.genres__title Historical
+                .genres-item.genres-item_action 
+                    .genres-icon
+                        img(src="images/genres/action.svg", alt="Action").genres__image
+                    h3.genres__title Action
+                .genres-item.genres-item_scifi 
+                    .genres-icon
+                        img(src="images/genres/scifi.svg", alt="Sci-Fi").genres__image
+                    h3.genres__title Sci-Fi
+                .genres-item.genres-item_horror 
+                    .genres-icon
+                        img(src="images/genres/horror.svg", alt="Horror").genres__image
+                    h3.genres__title Horror
+                .genres-item.genres-item_comedy
+                    .genres-icon 
+                        img(src="images/genres/comedy.svg", alt="Comedy").genres__image
+                    h3.genres__title Comedy
+                .genres-item.genres-item_documentary
+                    .genres-icon 
+                        img(src="images/genres/documentary.svg", alt="Documentary").genres__image
+                    h3.genres__title Documentary
+    section.section
+        .container
+            h2.section__h2
+                a(href="#").section__h2-link Popular Actors & Directors
+            .actors
+                .actors-item 
+                    a(href="").actors__link
+                        img(src="images/actors/actor01.png", alt="").actors__img
+                    h3.actors__title Zendaya
+                .actors-item
+                    a(href="").actors__link
+                        img(src="images/actors/actor02.png", alt="").actors__img
+                    h3.actors__title Selena Gomez
+                .actors-item
+                    a(href="").actors__link
+                        img(src="images/actors/actor03.png", alt="").actors__img 
+                    h3.actors__title Bella Thorne
+                .actors-item                  
+                    a(href="").actors__link
+                        img(src="images/actors/actor04.png", alt="").actors__img 
+                    h3.actors__title Tom Holland
+                .actors-item                   
+                    a(href="").actors__link
+                        img(src="images/actors/actor05.png", alt="").actors__img 
+                    h3.actors__title Timothee Chalamet
+                .actors-item                  
+                    a(href="").actors__link
+                        img(src="images/actors/actor06.png", alt="").actors__img 
+                    h3.actors__title Taylor Swift
+    section.section
+        .container
+            .marketing
+                .marketing-item
+                    a(href="").marketing__link
+                        img(src="images/marketing/marketing01.png", alt="Marketing").marketing__img
+                .marketing-item
+                    a(href="").marketing__link
+                        img(src="images/marketing/marketing02.png", alt="Marketing").marketing__img
+    section.section
+        .container
+            .offer 
+                h2.offer__title Are You New Here ? Don’t&nbspwait, Register Now. 
+                button.offer__btn Register
     include modules/footer
